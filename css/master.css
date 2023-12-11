@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+body {
+	font-family: 'Lora', sans-serif;
+	background: linear-gradient(blue, blue, rgba(64, 123, 167, 0.5), white, rgba(255, 3, 3, 0.4), rgb(255, 0, 43));
+	/*background-color:#D8D8D8;*/
+	width: 100%;
+	margin: 0;
+}
+
+.butn {
+	color: #1ebba3;
+	margin-left: 800px;
+	font-size: 2rem;
+	font-weight: 700;
+	line-height: 60px;
+	text-decoration: none;
+}
+
+.butn:hover {
+	text-decoration: none;
+	color: #1ebba3;
+}
+
+
+.butnn {
+	font-weight: 700;
+	text-decoration: none;
+	color: #1ebba3;
+	font-size: 1rem;
+	background-color: #c00021;
+	color: #fff;
+	padding: 5px 25px;
+}
+
+.butnn:hover {
+	text-decoration: none;
+	color: #fff;
+	background-color: #004ef9;
+
+}
+
+
+.offset:before {
+	display: block;
+	content: "";
+	height: 4rem;
+	margin-top: -4rem;
+}
+
+
+
+
+/*--Navigation--*/
+nav {
+	height: 8vh;
+	height: 5em;
+
+}
+
+nav .navbar-nav li a {
+	font-size: 2rem;
+	font-weight: 700;
+	letter-spacing: .1rem;
+	text-decoration: none;
+}
+
+nav .navbar-brand {
+	font-size: 15px;
+}
+
+nav .navbar-nav li {
+	padding: .7rem;
+	list-style: none;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	padding: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: #fff;
+}
+
+.navbar-nav>li>a {
+	line-height: 50px;
+}
+
+/*--End Navigation--*/
+
+/*--Landing page--*/
+
+.banner {
+	width: 100vh;
+	height: 88vh;
+}
+
+
+.caption h1 {
+	padding-bottom: 3rem;
+	font-weight: 700;
+	letter-spacing: .3rem;
+	text-shadow: .1rem .1rem .8rem black;
+	font-size: 3.8rem;
+	margin-top: 7vh;
+}
+
+.caption h3 {
+	padding-bottom: 1.6rem;
+	font-size: 2rem;
+	text-shadow: .1rem .1rem .5rem black;
+	color: #fff;
+}
+
+/*--End Landing page--*/
+
+/*--card--*/
+.cards {
+	width: 30%;
+	height: 70vh;
+	background-color: #1A1D26;
+	margin-top: 25px;
+	transform: scale(1.05);
+	box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+	margin: 30px;
+	display: block;
+}
+
+
+.cards:hover {
+	transform: scale(1.1);
+	transition: .3s ease transform;
+	background-image: linear-gradient(60deg, #1A1D26 0%, #DCDCDC 100%);
+}
+
+
+.cards-header1 {
+	text-align: center;
+	padding: 50px 10px;
+	background-image: url(../../img/fond.jpg);
+	width: 100%;
+}
+
+.cards-header1 h1 {
+	color: #fff;
+}
+
+.cards-header2 {
+	text-align: center;
+	padding: 50px 10px;
+	background-image: url(../../img/dwg.jpg);
+	background-size: 50%;
+	background-size: cover;
+	color: #000;
+}
+
+.cards-header2 h1 {
+	color: #fff;
+}
+
+.cards-header3 {
+	text-align: center;
+	padding: 50px 10px;
+	background-image: url(../../img/fnc.jpg);
+	background-size: 50%;
+	background-size: cover;
+	color: #000;
+}
+
+.cards-header3 h1 {
+	color: #fff;
+}
+
+.cards-header4 {
+	text-align: center;
+	padding: 50px 10px;
+	background-image: url(../../img/rogue.png);
+	color: #000;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.cards-header4 h1 {
+	color: #fff;
+}
+
+.cards-header5 {
+	text-align: center;
+	padding: 50px 10px;
+	background-image: url(../../img/T1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #000;
+}
+
+.cards-header5 h1 {
+	color: #000;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+.cards-header6 {
+	text-align: center;
+	padding: 50px 10px;
+	background-image: url(../../img/100_thieves.png);
+	background-position: relative;
+	background-size: 450px;
+	background-repeat: no-repeat;
+	color: #000;
+}
+
+.cards-header6 h1 {
+	color: #fff;
+}
+
+.cards-header h1 {
+	color: #fff;
+}
+
+.cards-body p {
+	color: #fff;
+	font-weight: bold;
+	font-size: 1em;
+	width: 70%;
+	margin-left: 65px;
+}
+
+
+.cards-body p:hover {
+	color: #fff;
+}
+
+.cards-body {
+	padding: 30px 20px;
+	text-align: center;
+	font-size: 18px;
+}
+
+
+/*--End Card --*/
+
+.title h2 {
+	position: relative;
+	color: #000;
+	font-size: 1.8em;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+
+
+.title {
+	width: 100%;
+	text-align: center;
+	margin: 25px;
+}
+
+.title h2::before {
+	content: '';
+	position: absolute;
+	left: 48%;
+	transform: tranlateX(-50%);
+	bottom: -10px;
+	width: 60px;
+	height: 4px;
+	background: #00bcd4;
+}
+
+/*----cards------*/
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-flow: wrap;
+	--bs-gutter-x: 0rem;
+}
+
+/*----End cards------*/
+
+
+h1 {
+	text-align: center;
+	color: #fff;
+}
+
+
+.caption h1 {
+	color: #c00021;
+}
+
+
+.jumbotron {
+	background-color: #042331;
+	background-image: url(../../img/lol.gif);
+	background-size: cover;
+	background-position: center center;
+	margin: 0%;
+	width: 100%;
+	text-decoration: none;
+}
+
+
+#services .service .title h2 {
+	width: 30em;
+}
+
+#services .service .title h2 {
+	width: 30em;
+}
+
+/*scroll bar card*/
+.scrollbar-black::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+	background-color: #F5F5F5;
+	border-radius: 10px;
+}
+
+.scrollbar-black::-webkit-scrollbar {
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+.scrollbar-black::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+	background-color: #000;
+}
+
+.scrollbar-black {
+	scrollbar-color: #000 #F5F5F5;
+}
+
+.bordered-black::-webkit-scrollbar-track {
+	-webkit-box-shadow: none;
+	border: 1px solid #000;
+}
+
+.bordered-black::-webkit-scrollbar-thumb {
+	-webkit-box-shadow: none;
+}
+
+.square::-webkit-scrollbar-track {
+	border-radius: 0 !important;
+}
+
+.square::-webkit-scrollbar-thumb {
+	border-radius: 0 !important;
+}
+
+.thin::-webkit-scrollbar {
+	width: 6px;
+}
+
+/*end scroll bar card*/
+
+.modal-footer {
+	display: flex;
+	flex-wrap: wrap;
+	flex-shrink: 0;
+	align-items: center;
+	justify-content: flex-end;
+	padding: .75rem;
+	border-top: 0px solid #dee2e6;
+	/*mettre 0 pour enlerver la bordure*/
+	border-bottom-right-radius: calc(.3rem - 1px);
+	border-bottom-left-radius: calc(.3rem - 1px);
+}
